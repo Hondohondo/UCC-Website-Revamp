@@ -24,6 +24,8 @@
 
     {{-- Partials --}}
     <link rel="stylesheet" href="{{ asset('css/partials/navbar.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/partials/footer.css') }}">
+
 
 
     {{-- Pages --}}
