@@ -1,6 +1,9 @@
 <div class="container">
-    <p class="subtitle">OUR BUSINESS PARTNERS</p>
-    <div class="d-flex justify-content-between">
+    <div class="row">
+        <p class="subtitle">OUR BUSINESS PARTNERS</p>
+    </div>
+
+    <div class="d-flex justify-content-around">
         <img class="partner-img" height="48px" width="86px" src="/img/cicso.png" alt="">
         <img class="partner-img" height="48px" width="106px" src="/img/unfpa.png" alt="">
         <img class="partner-img" height="48px" width="48px" src="/img/tacaids.png" alt="">
