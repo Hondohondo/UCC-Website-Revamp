@@ -1,61 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# GitHub Repo Collaboration
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+1. **UCC-Website-Revamp** repo has been created and has been made public. (We made it public for a purpose, private repos under a free plan have some limitations)
+2. I have then shared access links to your emails
+3. Accept the invitation sent to your emails
+4. Then pick a location for your project (e.g. Desktop, Documents, htdocs, etc) and clone the repository using the following command:
 
-## About Laravel
+```bash
+git clone https://github.com/Hondohondo/UCC-Website-Revamp.git
+```
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+5. After cloning you should first **navigate** to the project folder you just cloned: **UCC-Website-Revamp**. Then create your own branch, we won’t be pushing to a master branch. Everyone will be working from and pushing to their own branch
+6. Make a branch using the following command, make sure you replace **branch-name** with your own name:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+```bash
+git branch branch-name
+```
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+7. Go to your branch using the following command, make sure you replace **branch-name** with the same name you created above
 
-## Learning Laravel
+```bash
+git checkout branch-name
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+8. Confirm that you’re on your own branch using:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+```bash
+git branch
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+9. You will see the current active branch in **green**
 
-## Laravel Sponsors
+1. Then before opening our Laravel project, let’s run:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+```bash
+composer install
+```
 
-### Premium Partners
+That will create a vendor’s folder
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+10. If the step above fails you may need to run: (But this is **optional**)
 
-## Contributing
+```bash
+composer update
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+11. Open your UCC-Website-Revamp folder in a code editor and let’s duplicate the file **.env.example**, and rename the copy to be just **.env**
+12. Now as you will see the .env file has the name of our database: **ucc_website_revamp**
+13. So open XAMPP and start your Apache web server and MySQL server and create a database named: **ucc_website_revamp**
+14. Then run the following command for migrations:
 
-## Code of Conduct
+```bash
+php artisan migrate
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+15. Before starting our Laravel project, we may need to run this command to generate the application key: (Application key is needed for all features that require security e.g. tokens, password, sessions, cookies, etc)
 
-## Security Vulnerabilities
+```bash
+php artisan key:generate
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+16. Finally, let’s start our project by running:
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+php artisan serve
+```

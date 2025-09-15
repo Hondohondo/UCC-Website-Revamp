@@ -1,0 +1,25 @@
+.box {
+    width: 1440px;
+    /* fixed width */
+    height: 203px;
+    /* fixed height */
+    background: #FFFFFF;
+
+    top: 912px; /* spread items evenly with space in between */
+}
+
+.subtitle {
+    position: absolute;
+    /*top: 960px;*/
+    /* distance from top of container/page */
+    left: 629px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.75%;
+    color: #555555;
+}
+
+.partner-img {
+    opacity: 50%;
+}
