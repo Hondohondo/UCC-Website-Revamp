@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="{{ asset('css/pages/home.css') }}">
 
 
+
 </head>
 <body>
 

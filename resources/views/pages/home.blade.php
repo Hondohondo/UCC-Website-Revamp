@@ -5,6 +5,9 @@
 @section('content')
     @include('components.hero')
     @include('components.partners')
+    @include('components.services')
+    @include('components.extra')
+
 
 @endsection
 
