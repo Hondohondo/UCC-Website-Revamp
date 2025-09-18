@@ -15,10 +15,11 @@ padding-bottom: 32px;
 ">IT Consulting</p>
             <p style="font-family: Inter;
 font-weight: 400;
-font-style: Regular;
+font-style: normal;
 font-size: 20px;
 line-height: 160%;
 letter-spacing: 0.5%;
+color: #000000;
 ">Our comprehensive IT consulting services encompass a wide range of strategic and operational areas, including business process improvement, quality and performance management, and enterprise architecture development. We specialize in IT strategic planning and policy formulation, as well as change management and knowledge management initiatives.</p>
 
         </div>
