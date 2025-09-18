@@ -11,7 +11,7 @@
             <input
             type="email"
             id="newsletterEmail"
-            class="form-control newsletter-input"
+            class="form-control newsletter-input fw-bold"
             placeholder="Enter Email Address"
             required
             />
