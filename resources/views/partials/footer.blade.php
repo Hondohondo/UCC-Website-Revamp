@@ -34,7 +34,7 @@
 </div>
 
 <div class="col">
-        <h5 class="fw-bold">Rescources</h5>
+        <h5 class="fw-bold">Resources</h5>
         <ul class="list-unstyled small left">
         <li> Downloads</li>
         <li> Help Center</li>

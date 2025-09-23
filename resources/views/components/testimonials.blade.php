@@ -2,20 +2,17 @@
 <div class="container">
 <div class="testimonials-wrap">
     <div class="row">
-      <!-- Heading column (left, occupies half width on large screens) -->
       <div class="col-12">
         <h3 class="testimonials-title">Let's Hear from our Students and Clients</h3>
       </div>
 
-      <!-- Right side empty on wide screens (keeps heading aligned to left like the image) -->
       <div class="col-12 col-lg-6 d-none d-lg-block"></div>
     </div>
 
-    <!-- Testimonials grid: two columns, each with two stacked testimonials -->
     <div class="row mt-3 g-4">
       <!-- Left column -->
       <div class="col-12 col-lg-6">
-        <div class="testimonial-column">
+        <div>
           <!-- Testimonial 1 -->
           <div class="testimonial-card">
             <div class="testimonial-head">
