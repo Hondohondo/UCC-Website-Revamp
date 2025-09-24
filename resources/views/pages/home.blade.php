@@ -9,5 +9,6 @@
     @include('components.extra')
 
 
+    @include('components.testimonials')
 @endsection
 
