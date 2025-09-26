@@ -5,4 +5,6 @@
 @section('content')
     @include('components.hero')
     @include('components.testimonials')
+    @include('components.clients')
+    @include('components.newsletter')
 @endsection
