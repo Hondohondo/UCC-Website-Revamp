@@ -72,7 +72,9 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     min-width: 0;
 }
 }
-
+.btn {
+font-size: 1.4rem;
+}
 
 .newsletter .form-control:focus {
 outline: none;
@@ -136,13 +138,14 @@ margin: 0 auto;
     }
 
 
-    .testimonials-title {
+.testimonials-title {
       font-weight: 700;
       font-size: 3.6rem;
       margin-bottom: 28px;
       color: #1f2a2b;
       letter-spacing: -0.2px;
     }
+
 
 
     .testimonial-column {
