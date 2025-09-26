@@ -24,7 +24,9 @@ padding-top: 48px;
 .mmm {
 margin-left: 91px;
 }
-
+.form-control::placeholder {
+font-size: 1.8rem;
+}
 
 .newsletter .form-control {
 border-radius: 8px;
@@ -136,7 +138,7 @@ margin: 0 auto;
 
     .testimonials-title {
       font-weight: 700;
-      font-size: clamp(28px, 3.6vw, 40px);
+      font-size: 3.6rem;
       margin-bottom: 28px;
       color: #1f2a2b;
       letter-spacing: -0.2px;
@@ -178,7 +180,7 @@ margin: 0 auto;
 
     .testimonial-name {
       font-weight: 600;
-      font-size: 0.98rem;
+      font-size: 1.8rem;
       color: #11181a;
     }
 
