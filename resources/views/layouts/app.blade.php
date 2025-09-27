@@ -12,6 +12,7 @@
     <title>
         @yield('title', 'UCC Website')
     </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,6 +45,7 @@
 
     {{-- Components --}}
     <link rel="stylesheet" href="{{ asset('css/components/hero.css') }}">
+
 
 
 </head>

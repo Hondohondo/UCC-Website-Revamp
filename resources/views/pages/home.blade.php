@@ -4,5 +4,11 @@
 
 @section('content')
     @include('components.hero')
+    @include('components.partners')
+    @include('components.services')
+    @include('components.extra')
+
+
     @include('components.testimonials')
 @endsection
+

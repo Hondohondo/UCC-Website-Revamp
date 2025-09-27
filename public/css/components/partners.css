@@ -1,0 +1,18 @@
+.box {
+  
+    background: #FFFFFF;
+
+    
+}
+
+.subtitle {
+ 
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.75%;
+    color: #555555;
+}
+
+.partner-img {
+    opacity: 50%;
+}
