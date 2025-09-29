@@ -10,5 +10,7 @@
 
 
     @include('components.testimonials')
+    @include('components.clients')
+    @include('components.newsletter')
 @endsection
 
