@@ -1,0 +1,145 @@
+/*rem and em dont depend on html font-size in media queries
+instead, 1rem = 1em = 16px. rem is root font size, em is current font size
+*/
+
+/*value between 1300 and 1366. eg 1350px 1350/16 = 84.375 ~ 84em*/
+/*=====================
+84*16=1344px
+Below 1344px (Smaller desktops)
+========================*/
+@media (max-width: 84em) {
+    .hero-container {
+        max-width: 120rem;
+    }
+
+    .heading-one {
+        font-size: 4.4rem;
+    }
+}
+
+
+
+/*=====================
+Below 1200px (Landscape tablets)
+======================*/
+@media (max-width: 75em) {
+
+    html {
+        /*9px/16px = 56.25%*/
+        font-size: 56.25%;
+    }
+
+    .header {
+        padding: 0 3.2rem;
+    }
+
+    .main-nav-list {
+        gap: 3.2rem; /*was 4.8rem default*/
+    }
+
+    .hero {
+        gap: 4.8rem /*was 9.6rem default*/
+    }
+
+    .heading-2 {
+        font-size: 3.6rem;
+    }
+
+    .heading-3 {
+        font-size: 2.4rem;
+    }
+
+    .testimonials-container {
+        padding: 9.6rem 3.2rem; /*was 9.6rem default*/
+    }
+}
+
+
+
+/*=====================
+Below 944px (tablets)
+======================*/
+@media (max-width: 75em) {
+    html {
+        /*8px / 16px = 0.5 = 50%*/
+        font-size: 50%;
+    }
+
+    .hero {
+        padding: 0 8rem;
+        gap: 6.4rem;
+    }
+
+    .hero-text-box,
+    .hero-img-box {
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 60%;
+    }
+
+
+
+
+    /*MOBILE NAV*/
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    .main-nav {
+        background-color: rgba(255, 255, 255, 0.97);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        transform: translateX(100%);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: all .5s ease-in;
+
+
+    /*    Hide navigation - transition wont work when you use display:none*/
+    /*    display: none;*/
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .nav-open .main-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+
+        transform: translateX(0);
+    }
+
+    .nav-open .icon-mobile-nav.bi-list {
+        display: block;
+    }
+
+    .nav-open .icon-mobile-nav.bi-x {
+        display: block;
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 3rem;
+    }
+
+
+}
+
+
+
+/*ended at 27:30 - building mobile nav*/

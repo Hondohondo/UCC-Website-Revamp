@@ -10,7 +10,7 @@ Page works - This is navigation text.
     </a>
 </div>
 
-<header class="header">
+<header class="header nav-open">
     <img src="{{ asset('images/udsm-logo.jpg') }}" alt="UCC Logo" class="logo">
     <nav class="main-nav">
         <ul class="main-nav-list">
@@ -22,5 +22,14 @@ Page works - This is navigation text.
             <li><a class="main-nav-link nav-cta" href="#">Apply Online</a></li>
         </ul>
     </nav>
+
+
+    <button class="btn-mobile-nav">
+        <i class="bi bi-list icon-mobile-nav"></i>
+        <i class="bi bi-x icon-mobile-nav"></i>
+    </button>
+
+
     <img src="{{ asset('images/ucc-logo.jpg') }}" alt="UDSM Logo" class="logo">
+
 </header>
