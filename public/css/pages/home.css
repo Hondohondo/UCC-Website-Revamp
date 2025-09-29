@@ -103,6 +103,10 @@ margin-bottom: 2.5rem !important;
 margin-bottom: 2.5rem !important;
 }
 
+.clients-heading{
+font-size: 1.4rem;
+}
+
 .client-inner {
 max-width: 1152px;
 width: 100%;
