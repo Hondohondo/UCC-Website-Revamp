@@ -10,5 +10,6 @@
 
 
     @include('components.testimonials')
+    @include('components.gallery')
 @endsection
 

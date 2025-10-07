@@ -25,3 +25,10 @@ body {
     overflow-x: hidden;
 }
 
+
+/*  =============
+    Overriding Bootstrap
+    ==============  */
+figure {
+    margin: 0;
+}

@@ -39,12 +39,16 @@
     <link rel="stylesheet" href="{{ asset('css/partials/navbar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/partials/footer.css') }}">
 
-
     {{-- Pages --}}
     <link rel="stylesheet" href="{{ asset('css/pages/home.css') }}">
 
     {{-- Components --}}
     <link rel="stylesheet" href="{{ asset('css/components/hero.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/testimonials.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/gallery.css') }}">
+
+    {{-- Utilities --}}
+    <link rel="stylesheet" href="{{ asset('css/utilities.css') }}">
 
     {{-- Responsive --}}
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
