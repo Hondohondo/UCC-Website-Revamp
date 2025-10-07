@@ -12,6 +12,7 @@
     <title>
         @yield('title', 'UCC Website')
     </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,6 +48,7 @@
 
     {{-- Responsive --}}
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+
 
 
 </head>
