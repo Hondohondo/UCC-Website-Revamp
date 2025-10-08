@@ -11,5 +11,6 @@
 
     @include('components.testimonials')
     @include('components.gallery')
+    @include('components.cta')
 @endsection
 

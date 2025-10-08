@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="{{ asset('css/components/hero.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/testimonials.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/gallery.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/cta.css') }}">
 
     {{-- Utilities --}}
     <link rel="stylesheet" href="{{ asset('css/utilities.css') }}">
