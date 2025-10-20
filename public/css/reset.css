@@ -8,6 +8,13 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+    /*outline: 4px dotted #0864AF;*/
+    /*outline-offset: 8px;*/
+    box-shadow: 0 0 0 0.8rem rgba(8, 100, 175, 0.5);
+}
+
 html {
     /*font-size: 10px;*/
     font-size: 62.5%;
@@ -31,4 +38,8 @@ body {
     ==============  */
 figure {
     margin: 0;
+}
+
+ol, ul {
+    padding: 0;
 }

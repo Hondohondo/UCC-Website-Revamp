@@ -10,7 +10,12 @@
 
 
     @include('components.testimonials')
-    @include('components.gallery')
-    @include('components.cta')
+    @include('components.featured-in')
+    @include('components.newsletter')
+{{--    @include('components.cards')--}}
+{{--    @include('components.gallery')--}}
+{{--    @include('components.cta')--}}
+{{--    @include('components.z-pattern')--}}
+{{--    @include('components.circle')--}}
 @endsection
 

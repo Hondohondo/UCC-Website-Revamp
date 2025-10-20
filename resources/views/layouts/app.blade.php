@@ -45,8 +45,13 @@
     {{-- Components --}}
     <link rel="stylesheet" href="{{ asset('css/components/hero.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/testimonials.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/featured-in.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/gallery.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/cta.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/z-pattern.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/circle.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/cards.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/newsletter.css') }}">
 
     {{-- Utilities --}}
     <link rel="stylesheet" href="{{ asset('css/utilities.css') }}">
@@ -76,6 +81,9 @@
 {{-- Bootstrap 5.3.8 JS --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+{{-- Ion Icons --}}
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
 

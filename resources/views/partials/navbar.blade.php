@@ -14,8 +14,8 @@ Page works - This is navigation text.
     <img src="{{ asset('images/udsm-logo.jpg') }}" alt="UCC Logo" class="logo">
     <nav class="main-nav">
         <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#">Home</a></li>
-            <li><a class="main-nav-link" href="#">About</a></li>
+            <li><a class="main-nav-link" href="/">Home</a></li>
+            <li><a class="main-nav-link" href="/about">About</a></li>
             <li><a class="main-nav-link" href="#">Training & Courses</a></li>
             <li><a class="main-nav-link" href="#">ICT Services</a></li>
             <li><a class="main-nav-link" href="#">News</a></li>
@@ -23,13 +23,13 @@ Page works - This is navigation text.
         </ul>
     </nav>
 
-
     <button class="btn-mobile-nav">
         <i class="bi bi-list icon-mobile-nav"></i>
         <i class="bi bi-x icon-mobile-nav"></i>
     </button>
 
-
+    <a href="#">
     <img src="{{ asset('images/ucc-logo.jpg') }}" alt="UDSM Logo" class="logo">
+    </a>
 
 </header>

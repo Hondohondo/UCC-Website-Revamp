@@ -1,0 +1,79 @@
+/*************************************/
+/* TESTIMONIALS SECTION */
+/*************************************/
+.section-newsletter {
+    padding: 9.6rem 0;
+    /*background: #E6F0F7;*/
+    background-color: #F6B418;
+}
+
+.section-newsletter .heading-2 {
+    /*margin-bottom: 3.2rem;*/
+}
+
+
+.newsletter-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #333;
+}
+
+
+.newsletter {
+    flex: 1;
+
+    /*border-top: 1px solid #eee;*/
+    /*border-right: 1px solid #eee;*/
+    border-right: 1px solid #E6F0F7;;
+
+
+}
+
+.newsletter-text {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
+
+.newsletter-form {
+    max-width: 70%;
+    /*margin: 0 auto;*/
+}
+
+
+/*.cta-form-group:not(:last-child)*/
+.newsletter-form-group:not(:last-child) {
+    margin-bottom: 3.2rem;
+}
+
+.profile {
+    flex: 1;
+
+    padding-left: 9.6rem;
+}
+
+.profile-link:link,
+.profile-link:visited {
+    display: inline-block;
+
+    transition: all .4s;
+}
+
+.profile-link:hover,
+.profile-link:active {
+    transform: translateY(-1.2rem);
+
+}
+
+.profile-img {
+    /*width: 100%;*/
+    width: 18rem;
+    /*border: 2px solid #333;*/
+    border: 2px solid #E6F0F7;;
+    border-radius: 10px;
+}
+
+
