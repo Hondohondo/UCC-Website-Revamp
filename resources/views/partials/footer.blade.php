@@ -53,7 +53,7 @@
             <nav class="nav-col footer-col">
                 <p class="footer-heading">Company</p>
                 <ul class="footer-nav">
-                    <li><a class="footer-link" href="#">About us</a></li>
+                    <li><a class="footer-link" href="/about">About us</a></li>
                     <li><a class="footer-link" href="#">Partners</a></li>
                     <li><a class="footer-link" href="#">Careers</a></li>
                     <li><a class="footer-link" href="#">Contact us</a></li>

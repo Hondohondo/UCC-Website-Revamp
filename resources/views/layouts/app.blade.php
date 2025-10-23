@@ -52,6 +52,10 @@
     <link rel="stylesheet" href="{{ asset('css/components/circle.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/cards.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/newsletter.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/pricing.css') }}">
+
+    {{-- Components - About --}}
+    <link rel="stylesheet" href="{{ asset('css/components/about.css') }}">
 
     {{-- Utilities --}}
     <link rel="stylesheet" href="{{ asset('css/utilities.css') }}">

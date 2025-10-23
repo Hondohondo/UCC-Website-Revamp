@@ -42,7 +42,6 @@
             </div>
             <div class="lists display-none">
                 <h3 class="heading-3">A custom List:</h3>
-
                 <ul class="list">
                     <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Item 1</span></li>
                     <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Item 2</span></li>
