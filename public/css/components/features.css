@@ -1,0 +1,50 @@
+/*************************************/
+/* FEATURES SECTION */
+/*************************************/
+.section-features {
+    /*background: #E6F0F7;*/
+    padding: 9.6rem 0;
+}
+
+.feature {
+    max-width: 720px;
+    margin: 0 auto;
+
+    /*border: 2px solid #E6F0F7;*/
+    border-radius: 10px;
+    padding: 32px;
+
+    background: #EBEEED;
+}
+
+.feature:not(:last-child) {
+    /*margin-bottom: 6.4rem;*/
+    margin-bottom: 9.6rem;
+}
+
+.feature-icon {
+    /*color: #0864AF;*/
+    color: #38574D;
+  /*  height: 2.4rem;
+    width: 2.4rem;  */
+    height: 3.2rem;
+    width: 3.2rem;
+    /*background-color: #E6F0F7;*/
+    background-color: #fff;
+    padding: 1.6rem;
+    border-radius: 50%;
+    margin-bottom: 3.2rem;
+}
+
+.feature-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+.

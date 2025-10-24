@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="{{ asset('css/components/cards.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/newsletter.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components/pricing.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/features.css') }}">
 
     {{-- Components - About --}}
     <link rel="stylesheet" href="{{ asset('css/components/about.css') }}">

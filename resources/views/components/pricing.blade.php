@@ -7,7 +7,7 @@
         <h2 class="heading-2">We have 2 pricing plans</h2>
     </div>
 
-    <div class="container">
+    <div class="container margin-bottom-48">
         <div class="pricing-table">
             <div class="pricing-plan pricing-plan-starter">
 
@@ -51,6 +51,9 @@
         </div>
     </div>
 
-
-
+    <div class="container">
+        <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+        </aside>
+    </div>
 </section>
