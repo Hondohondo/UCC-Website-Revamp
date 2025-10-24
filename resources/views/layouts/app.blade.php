@@ -4,8 +4,8 @@
 
     {{-- Meta --}}
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+{{--    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">--}}
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
@@ -39,12 +39,30 @@
     <link rel="stylesheet" href="{{ asset('css/partials/navbar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/partials/footer.css') }}">
 
-
     {{-- Pages --}}
     <link rel="stylesheet" href="{{ asset('css/pages/home.css') }}">
 
     {{-- Components --}}
     <link rel="stylesheet" href="{{ asset('css/components/hero.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/testimonials.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/featured-in.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/gallery.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/cta.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/z-pattern.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/circle.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/cards.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/newsletter.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/pricing.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/features.css') }}">
+
+    {{-- Components - About --}}
+    <link rel="stylesheet" href="{{ asset('css/components/about.css') }}">
+
+    {{-- Utilities --}}
+    <link rel="stylesheet" href="{{ asset('css/utilities.css') }}">
+
+    {{-- Responsive --}}
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
 
 
@@ -68,6 +86,9 @@
 {{-- Bootstrap 5.3.8 JS --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+{{-- Ion Icons --}}
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
 

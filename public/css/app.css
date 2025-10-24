@@ -1,0 +1,89 @@
+/*************************************/
+/* GENERAL REUSABLE COMPONENTS */
+/*************************************/
+
+.heading-one,
+.heading-2,
+.heading-3 {
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.heading-one {
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+}
+
+.heading-2 {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+
+.heading-3 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+}
+
+.subheading {
+    display: block;
+    /*font-size: 2rem;*/
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #075a9e;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    /*padding: 1.6rem 3.2rem;*/
+    padding: 1.2rem 2.4rem;
+    border-radius: 10px;
+
+    /*only for .btn*/
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+
+    transition: all .3s;
+}
+
+.btn:hover,
+.btn:active {
+
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #0864AF;
+    color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #075a9e;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+    background: #fff;
+    color: #555;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+    background-color: #e6f0f7;
+
+    box-shadow: inset 0 0 0 3px #fff;
+
+}

@@ -1,0 +1,38 @@
+/*************************************/
+/* CIRCLE SECTION */
+/*************************************/
+.circle {
+    display: none;
+    /*width: 60%;*/
+    width: 20%;
+    /*height: 60%;*/
+    /*height: 20rem;*/
+    /*padding-bottom: 60%;*/
+    padding-bottom: 20%;
+    background-color: #e6f0f7;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*z-index: -1;*/
+    /*z-index: -2;*/
+}
+
+.circle::after {
+    content: "";
+    display: block;
+    width: 80%;
+    padding-bottom: 80%;
+    background-color: #cee0ef;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*z-index: -1;*/
+}

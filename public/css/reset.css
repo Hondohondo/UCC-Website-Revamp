@@ -8,9 +8,17 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+    /*outline: 4px dotted #0864AF;*/
+    /*outline-offset: 8px;*/
+    box-shadow: 0 0 0 0.8rem rgba(8, 100, 175, 0.5);
+}
+
 html {
     /*font-size: 10px;*/
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -19,5 +27,19 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+
+    /*only works if there is nothing absolutely positioned in relation to body*/
+    overflow-x: hidden;
 }
 
+
+/*  =============
+    Overriding Bootstrap
+    ==============  */
+figure {
+    margin: 0;
+}
+
+ol, ul {
+    padding: 0;
+}
